@@ -61,7 +61,7 @@ void setup() {
   
   if(swi ==LOW){
 
- x| 
+ 
   lcd.setCursor(0,0);
   lcd.print("Digite su clave");
   //Cuando se presiona una tecla, pulso deja de ser 0
@@ -125,4 +125,5 @@ if (pulso && (x<4) && (pulso !='*') && (pulso !='#')){
   
   }
 
+  
   
